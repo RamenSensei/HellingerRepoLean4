@@ -1,0 +1,42 @@
+import Hellinger.AllBent
+import Hellinger.AllQuadratic
+import Hellinger.BentLowExact
+import Hellinger.PrincipalRankMoment
+import Hellinger.InterlaceMoment
+import Hellinger.QuadraticMean
+import Hellinger.BentFourMatrix
+import Hellinger.BentFourClassification
+import Hellinger.PaperPolynomialIdentities
+import Hellinger.PaperQuantitativeBounds
+import Hellinger.SmallPrincipalRanks
+import Hellinger.ProbabilityContracts
+
+#print axioms Hellinger.AllBent.paper_bent_hellinger
+#print axioms Hellinger.AllQuadratic.paper_quadratic_hellinger
+#print axioms Hellinger.BentLowExact.manuscript_low_noise_full
+#print axioms Hellinger.BentLarge.bent_high_noise_hellinger_strict
+#print axioms Hellinger.BentLow.bent_large_hellinger
+#print axioms Hellinger.BentFour.bent_quadratic_representation
+#print axioms Hellinger.BentFourFinal.bent_fourth_moment_upper
+#print axioms Hellinger.BentFourStructure.bent_four_sensitivity_mean
+#print axioms Hellinger.PrincipalRankMoment.fourth_moment_quadratic_value
+#print axioms Hellinger.InterlaceMoment.fourth_moment_graph_interlace
+#print axioms Hellinger.InterlaceMoment.phase_fourth_moment_one
+#print axioms Hellinger.QuadraticMean.mean_square_branches
+#print axioms Hellinger.QuadraticMean.polar_rank_even
+#print axioms Hellinger.BentFourMatrix.fourth_moment_actual_edges
+#print axioms Hellinger.BentFourClassification.bent_isQuadratic
+#print axioms Hellinger.PaperPolynomialIdentities.bentP_strictConcave
+#print axioms Hellinger.PaperPolynomialIdentities.bentP_second_derivative
+#print axioms Hellinger.PaperPolynomialIdentities.bentP_endpoints
+#print axioms Hellinger.PaperQuantitativeBounds.bent_low_noise_full_constant_chain
+#print axioms Hellinger.PaperQuantitativeBounds.four_low_noise_explicit_ratio
+#print axioms Hellinger.PaperQuantitativeBounds.bent_middle_root_strict
+#print axioms Hellinger.PaperQuantitativeBounds.bent_high_noise_quadratic_strict
+#print axioms Hellinger.SmallPrincipalRanks.inverse_polar_principal_three
+#print axioms Hellinger.SmallPrincipalRanks.inverse_polar_principal_two
+#print axioms Hellinger.ProbabilityContracts.bent_information
+#print axioms Hellinger.ProbabilityContracts.quadratic_information
+
+example : Hellinger.PaperSpecs.BentHellinger := Hellinger.AllBent.paper_bent_hellinger
+example : Hellinger.PaperSpecs.QuadraticHellinger := Hellinger.AllQuadratic.paper_quadratic_hellinger
